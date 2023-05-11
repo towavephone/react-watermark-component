@@ -1,8 +1,8 @@
 export default function getWaterMarkCanvas(text, options) {
   const canvas = document.createElement('canvas')
   const ctx = canvas.getContext('2d')
-  const canvasWidth = 4000
-  const canvasHeight = 4000
+  const canvasWidth = options.chunkWidth
+  const canvasHeight = options.chunkHeight
   canvas.width = canvasWidth
   canvas.height = canvasHeight
   ctx.textAlign = options.textAlign

@@ -1,6 +1,6 @@
 {
-  "name": "react-watermark-component",
-  "version": "2.2.1",
+  "name": "@towavephone/react-watermark-component",
+  "version": "2.2.2",
   "description": "react-watermark-component is a component that can generate a water mark background image.",
   "keywords": [
     "react",
